@@ -1,0 +1,8 @@
+#product-feedback export — 2026-07-22
+
+[10:15] ben.adeyemi: July customer calls roundup:
+[10:15] ben.adeyemi: • 3 customers asked for Google Sheets sync
+[10:16] ben.adeyemi: • annotations on charts (Pinecrest Media)
+[10:16] ben.adeyemi: • "why is SSO only on Enterprise" — came up again (Kestrel Health, Oakridge)
+[10:18] hana.suzuki (PM): thanks! Sheets sync is already in Q4 plan
+[10:19] hana.suzuki (PM): SSO packaging is a PMM question, looping in Lena

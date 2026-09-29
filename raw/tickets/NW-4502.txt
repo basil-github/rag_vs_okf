@@ -1,0 +1,10 @@
+Ticket: NW-4502
+Created: 2026-05-21
+Customer: Oakridge Clinics (Growth)
+Priority: Normal
+Subject: Scheduled report arrives at wrong time
+
+Customer says: "Our 7am report shows up at 3am. We're in New York."
+Agent notes: Schedule stored in UTC, UI displays local but the scheduler ignores DST offset for some workspaces.
+Known bug ENG-2291. Workaround: set schedule 4h later.
+Status: Open – waiting on engineering

@@ -1,0 +1,14 @@
+From: Priya Raman <priya.raman@northwind-analytics.com>
+To: all-company@northwind-analytics.com
+Date: Mon, 2 Mar 2026 09:15
+Subject: Heads up: MAU definition changed on March 1
+
+Hi everyone,
+
+As agreed at the Metrics Council, we changed how we count MAU starting March 1.
+Short version: we now count people who actually *used* the product in a rolling window, not people who just logged in.
+Expect the number to be lower (roughly 18%) than what you're used to. Historical data has been backfilled.
+
+The full, official definition lives in the knowledge bundle. Please don't paste old definitions into decks.
+
+Priya

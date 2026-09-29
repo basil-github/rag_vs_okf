@@ -1,0 +1,18 @@
+From: Marcus Okafor <marcus.okafor@northwind-analytics.com>
+To: Leo Park; Hana Suzuki
+Date: Thu, 28 May 2026 11:40
+Subject: DRAFT – Reports API v1 deprecation email
+
+Draft for customers, feedback by Friday:
+
+---
+Subject: Reports API v1 will be retired on December 31, 2026
+
+Reports API v2 is now generally available. v1 will stop working on December 31, 2026.
+Main changes: refresh_rate is replaced by refresh_interval_minutes, and last_updated is replaced by
+last_refreshed_at (UTC). See our developer docs for the full migration guide.
+---
+
+Leo — can you add a code sample? Hana — do we need to notify Starter customers? (they don't have API access)
+
+M.

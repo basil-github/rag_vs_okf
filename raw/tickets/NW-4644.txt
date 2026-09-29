@@ -1,0 +1,10 @@
+Ticket: NW-4644
+Created: 2026-07-09
+Customer: Vantage Foods (Growth)
+Priority: Urgent
+Subject: CSV export truncated
+
+Customer says: "Export stops at 10,000 rows, report has 14,388. No warning in the UI."
+Agent notes: Confirmed hard limit in export service. Also dates exported in UTC, not workspace tz.
+Linked to email thread with Laura Mendes. ENG-2334.
+Status: Open

@@ -1,0 +1,10 @@
+Ticket: NW-4671
+Created: 2026-07-17
+Customer: Lumen Retail (Starter)
+Priority: Normal
+Subject: teammates never got invite
+
+Customer says: "I invited 6 people a week ago, nobody joined."
+Agent notes: Invites went to their Microsoft 365 junk folder. Customer asked why emails come from a no-reply
+subdomain. Suggested allowlisting invites@mail.northwind-analytics.com.
+Status: Solved

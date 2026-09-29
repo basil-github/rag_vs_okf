@@ -1,0 +1,19 @@
+From: Northwind Support <support@northwind-analytics.com>
+To: Pat Greene <pat@lumenretail.example>
+Date: Thu, 10 Sep 2026 14:22
+Subject: RE: Refund for our annual renewal
+
+Hi Pat,
+
+Thanks for reaching out. I checked your account: your annual plan renewed on July 28, which is 44 days ago.
+Under our refund policy, annual plans can be refunded within 30 days of purchase or renewal, so
+unfortunately we can't process a refund in this case. Your plan stays active until July 28, 2027.
+
+If you'd like, I can connect you with your account manager to discuss adjusting seats at your next renewal.
+
+Best,
+Rosa
+Northwind Support
+
+> From: Pat Greene
+> We didn't mean to renew — can we get our money back? We only noticed now.

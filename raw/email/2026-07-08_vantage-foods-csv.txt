@@ -1,0 +1,19 @@
+From: Laura Mendes <laura.mendes@vantagefoods.example>
+To: support@northwind-analytics.com
+Date: Wed, 8 Jul 2026 16:20
+Subject: CSV export missing rows??
+
+Hi,
+
+Our transactions export only has 10,000 rows but the report shows 14,388. There was no warning.
+Also, the dates in the file are an hour off from what we see in the dashboard, and supplier names
+with accents (e.g. "Café Ribeiro") show up as "CafÃ© Ribeiro" when opened in Excel.
+
+This is our month-end source of truth, so this is a serious problem.
+
+Laura
+Finance Manager, Vantage Foods
+
+---
+Reply from Northwind Support (9 Jul): Hi Laura, thanks for the detail. We've reproduced the 10k row limit
+and escalated to engineering. As a workaround, please filter the export by date range.

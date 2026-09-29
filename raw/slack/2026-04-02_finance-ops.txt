@@ -1,0 +1,7 @@
+#finance-ops export — 2026-04-02
+
+[11:20] rosa.lindqvist (support): hey team, what's the refund window for annual? we've been telling people 14 days based on the billing sync notes
+[11:26] mia.chen (finance): hmm I thought we agreed on 60 at the finance review last week?
+[11:27] rosa.lindqvist (support): ...we have two different answers in two different meeting notes 😬
+[11:31] dana.whitfield: neither is final. I'm writing the actual policy, should be approved mid-April. until then escalate refund requests to me
+[11:32] rosa.lindqvist (support): ok will escalate. pls ping when it's official

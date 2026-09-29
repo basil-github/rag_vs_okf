@@ -1,0 +1,9 @@
+#support-escalations export — 2026-06-10
+
+[09:02] rosa.lindqvist: Brightline Logistics again — their ops dashboard (68 widgets) takes 40+ sec to load every morning
+[09:03] rosa.lindqvist: their VP emailed our CEO directly. this is ticket #4 from them this quarter
+[09:10] tomas.ibarra: we see it. big dashboards fan out 1 query per widget, cache is cold at 8am their time
+[09:11] tomas.ibarra: short term we can pre-warm their cache. long term query batching is on the roadmap
+[09:14] rosa.lindqvist: can I tell them a date?
+[09:15] tomas.ibarra: no dates pls. "actively working on it"
+[09:40] ben.adeyemi (CS): FYI they mentioned evaluating Metabase. flagging as churn risk

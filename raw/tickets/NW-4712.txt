@@ -1,0 +1,9 @@
+Ticket: NW-4712
+Created: 2026-08-03
+Customer: Pinecrest Media (Growth)
+Priority: Low
+Subject: Feature request – dark mode
+
+Customer says: "We display dashboards on TVs in the newsroom. Is there a dark theme? White background is very bright."
+Agent notes: Logged as feature request FR-318 (dark mode dashboards).
+Status: Closed – feature request

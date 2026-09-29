@@ -1,0 +1,10 @@
+#growth-analytics export — 2026-02-03
+
+[14:02] sam.ortiz: pulled the numbers — 22% of "MAU" in Jan had exactly one session < 15 seconds. that's login-and-bounce
+[14:03] sam.ortiz: also Feb has 28 days and Jan has 31 so MoM looks like a drop every Feb 🙃
+[14:05] priya.raman: yeah this is the argument for a rolling window. I'm thinking trailing 28d
+[14:06] jules.martin: what counts as "active" though? just queries?
+[14:07] priya.raman: something like: ran a query, viewed a dashboard (with some min time), edited a report. will propose at metrics council on the 24th
+[14:08] jules.martin: dashboards viewed via embed on customer sites — do those count?
+[14:09] priya.raman: good q, probably not unless the viewer is a named user. adding to the doc
+[14:15] sam.ortiz: also need to kill the API service accounts from the count, the Zapier integration alone is ~900 "users"

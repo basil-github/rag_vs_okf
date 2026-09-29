@@ -1,0 +1,8 @@
+#sre-oncall export — 2026-09-09
+
+[07:52] pagerduty: 🔴 dashboards-p95-latency > 8s for 10 min (eu-west)
+[07:53] aisha.b: ack. looking
+[07:58] aisha.b: cache hit rate 41%. restarting cache-warmer per runbook
+[08:06] aisha.b: p95 back to 2.1s. SEV3, mostly Brightline + 2 other big workspaces
+[08:07] tomas.ibarra: thx. that's the 3rd morning this month for Brightline. we need the batching work prioritized
+[08:30] aisha.b: postmortem doc started

@@ -1,0 +1,10 @@
+#eng-platform export — 2026-05-19
+
+[15:03] marcus.okafor: Reports API v2 goes GA tomorrow 🚀
+[15:04] leo.park: reminder for anyone with client code: `refresh_rate` is gone in v2. it's `refresh_interval_minutes` (int) now
+[15:05] leo.park: and `last_updated` → `last_refreshed_at`, which is UTC ISO 8601 instead of the weird local-time string
+[15:06] nadia.k: finally. the v1 last_updated timezone bug caused so many support tickets
+[15:08] marcus.okafor: v1 stays up until end of year. deprecation email goes out next week
+[15:09] leo.park: docs PR merged, contract is in the OKF bundle under api/
+[15:22] nadia.k: can we also add a `next_refresh_at`? customers keep asking
+[15:23] marcus.okafor: backlog it, not for GA

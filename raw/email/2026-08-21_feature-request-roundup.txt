@@ -1,0 +1,18 @@
+From: Hana Suzuki <hana.suzuki@northwind-analytics.com>
+To: product@northwind-analytics.com
+Date: Fri, 21 Aug 2026 17:30
+Subject: August feature request roundup (from CS, sales, tickets)
+
+Top customer requests logged in August 2026:
+
+1. Dark mode for dashboards (7 accounts), mostly for wall-mounted TV displays
+2. Scheduled PDF delivery to Slack channels (5 accounts)
+3. Excel (.xlsx) export (4 accounts)
+4. Row-level permissions on the Growth plan, currently Enterprise only (3 accounts)
+5. Custom fiscal calendar, e.g. 4-4-5 retail calendar (2 accounts)
+6. Write-back to Snowflake from reports (1 account, but it's a big one: Tidewater Energy)
+
+Honorable mentions: chart annotations, Google Sheets sync (carried over from July).
+
+Proposal for roadmap review attached.
+Hana

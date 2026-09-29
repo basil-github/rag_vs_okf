@@ -1,0 +1,9 @@
+Ticket: NW-4802
+Created: 2026-09-05
+Customer: Lumen Retail (Starter)
+Priority: Normal
+Subject: Refund for renewal
+
+Customer says: "We renewed by accident, want a refund."
+Agent notes: Renewal was 44 days ago, outside refund policy window. Declined politely, see email thread.
+Status: Solved

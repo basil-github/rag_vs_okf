@@ -1,0 +1,10 @@
+Ticket: NW-4603
+Created: 2026-07-01
+Customer: Kestrel Health (Growth, 180 seats)
+Priority: Normal
+Subject: SSO setup
+
+Customer says: "Where do we configure SAML? Our Okta admin can't find it."
+Agent notes: Explained SAML SSO is Enterprise-only. Customer was unhappy: "we'd have to pay 2.5x just for SSO".
+Passed to account manager (Jules).
+Status: Solved

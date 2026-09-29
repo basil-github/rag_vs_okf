@@ -1,0 +1,10 @@
+Ticket: NW-4771
+Created: 2026-08-22
+Customer: Tidewater Energy (Enterprise)
+Priority: Normal
+Subject: Row-level security for subsidiaries + Slack PDFs
+
+Customer says: "Two asks: (1) we want scheduled PDF snapshots posted to Slack channels, (2) can our Growth-plan
+subsidiary also get row-level permissions?"
+Agent notes: FR-319 (Slack PDF delivery), FR-321 (RLS on Growth). Informed RLS is Enterprise-only.
+Status: Closed – feature request

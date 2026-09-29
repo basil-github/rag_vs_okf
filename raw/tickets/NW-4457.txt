@@ -1,0 +1,10 @@
+Ticket: NW-4457
+Created: 2026-05-02
+Customer: Harbor & Pine (Starter)
+Priority: Normal
+Subject: can't connect postgres
+
+Customer says: "keeps saying connection refused. tried everything. is your product broken?"
+Agent notes: They were missing our IP allowlist + needed sslmode=require. Sent help article KB-112. Customer
+said the allowlist IPs should be shown directly in the connection screen.
+Status: Solved

@@ -1,0 +1,9 @@
+Ticket: NW-4730
+Created: 2026-08-10
+Customer: Vantage Foods (Growth)
+Priority: Normal
+Subject: Need Excel export
+
+Customer says: "Our finance team wants .xlsx exports with formatting, CSV breaks our accented supplier names."
+Agent notes: FR-322 (xlsx export). Also mentioned CSV UTF-8/BOM issue, added to ENG-2334.
+Status: Closed – feature request

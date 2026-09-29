@@ -1,0 +1,11 @@
+#data-metrics export — 2026-01-14
+
+[09:12] kevin.cho: morning! quick q for the board deck — what's our official MAU definition again? finance wants it in a footnote
+[09:14] priya.raman: MAU = any user who logged in at least once during the calendar month. excl. internal accounts
+[09:14] priya.raman: that's what's been in the deck since 2024
+[09:15] kevin.cho: 👍 perfect, so December MAU = 43,870?
+[09:17] priya.raman: yep 43,870 for Dec. Nov was 41,200
+[09:18] sam.ortiz: fwiw I still think "logged in" is a pretty weak signal lol. half of those are SSO auto-logins from the Chrome extension
+[09:19] priya.raman: agreed, it's on the list for the metrics council next month
+[09:19] kevin.cho: ok using the login def for now, thx!
+[09:31] sam.ortiz: :coffee:

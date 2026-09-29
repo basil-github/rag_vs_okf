@@ -1,0 +1,9 @@
+Ticket: NW-4561
+Created: 2026-06-11
+Customer: Pinecrest Media (Growth)
+Priority: Low
+Subject: iOS app crashes when opening a dashboard with maps
+
+Customer says: "The iPhone app closes immediately when I open our Regional Sales dashboard."
+Agent notes: Reproduced on iOS 19.4 with map widgets. Crash log attached to ENG-2310.
+Status: Open

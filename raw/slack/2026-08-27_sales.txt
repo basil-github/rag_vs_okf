@@ -1,0 +1,7 @@
+#sales export — 2026-08-27
+
+[16:05] jules.martin: Kestrel Health renewal is at risk. 180 seats on Growth
+[16:06] jules.martin: their security team now requires SAML SSO for all vendors. we only have SSO on Enterprise and the jump is too big for them
+[16:07] jules.martin: they said "if you can't do SSO on Growth by renewal we're moving"
+[16:10] lena.fischer: we've heard this from 5+ accounts. I'll bring an "SSO add-on" proposal to pricing council
+[16:11] jules.martin: renewal is Nov 1 fyi

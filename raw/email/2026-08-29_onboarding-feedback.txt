@@ -1,0 +1,17 @@
+From: Ben Adeyemi <ben.adeyemi@northwind-analytics.com>
+To: Hana Suzuki; Sam Ortiz
+Date: Sat, 29 Aug 2026 12:10
+Subject: What new customers are telling us about onboarding
+
+Hana, Sam,
+
+Notes from 9 onboarding calls this month:
+
+- Connecting the first data source is the #1 blocker. Postgres users get stuck on SSL mode and our IP allowlist
+  (the IPs are buried in a help article).
+- Invite emails land in spam for Outlook/M365 customers, so the admin thinks teammates ignored the invite.
+- After connecting data, they see an empty workspace. No templates, no sample dashboard, so "now what?"
+- Two customers didn't realize Starter has no API access until after they bought.
+
+Activation this month is 34%. I suspect these are the main reasons.
+Ben

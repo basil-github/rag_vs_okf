@@ -1,0 +1,8 @@
+#support-escalations export — 2026-08-19
+
+[13:44] rosa.lindqvist: CSV export is silently cutting off at 10,000 rows. no warning, file just ends
+[13:45] rosa.lindqvist: Vantage Foods found out when their month-end reconciliation was off by $212k 😬
+[13:47] leo.park: yeah, that's a hard cap in the export service. we should at least show a warning
+[13:48] rosa.lindqvist: also 2 other tickets this week about CSV dates being in UTC instead of the workspace timezone
+[13:50] leo.park: and the accented-character thing in Excel — we don't write a BOM so é shows as Ã©
+[13:52] hana.suzuki (PM): ok, making a CSV export epic. this is clearly a theme

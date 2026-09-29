@@ -1,0 +1,9 @@
+Ticket: NW-4388
+Created: 2026-04-09
+Customer: Brightline Logistics (Growth, 140 seats)
+Priority: High
+Subject: Ops dashboard very slow in the morning
+
+Customer says: "Dashboard 'Dispatch Overview' takes forever to load every morning, sometimes times out."
+Agent notes: 68 widgets. Load time 38s at 08:10 local, 4s at 14:00. Escalated to SRE. Cache warm applied.
+Status: Solved (workaround)

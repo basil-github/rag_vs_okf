@@ -1,0 +1,8 @@
+#data-metrics export — 2026-03-04
+
+[10:40] priya.raman: 📣 new MAU definition went live Mar 1. trailing 28 days, qualifying actions only. Looker + board dashboards updated
+[10:41] kevin.cho: numbers dropped a lot?
+[10:42] priya.raman: ~18% lower than the old login-based number. expected. I backfilled 12 months so trends are comparable
+[10:44] kevin.cho: can you send me the one-liner definition for the deck?
+[10:47] priya.raman: it's in the OKF bundle, metrics/monthly-active-users.md. please link that instead of copy-pasting, the copies always go stale 😅
+[10:48] kevin.cho: lol fair

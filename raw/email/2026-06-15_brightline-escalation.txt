@@ -1,0 +1,18 @@
+From: Greg Holloway <g.holloway@brightline-logistics.example>
+To: support@northwind-analytics.com
+Cc: ceo@northwind-analytics.com
+Date: Mon, 15 Jun 2026 08:47
+Subject: Dashboards unusable in the morning – 4th time
+
+Hello,
+
+For the fourth time this quarter our operations dashboard takes 40–60 seconds to load between 8 and 9am,
+exactly when our dispatch team needs it. We pay for 140 Growth seats.
+
+We have started evaluating alternatives. I'd like a call this week with someone who can commit to a fix.
+
+Greg Holloway
+VP Operations, Brightline Logistics
+
+> On 2 Jun 2026, Northwind Support wrote:
+> Thanks Greg, we've applied a cache optimization to your workspace and will monitor.

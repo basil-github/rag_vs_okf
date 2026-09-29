@@ -1,0 +1,20 @@
+From: Kevin Cho <kevin.cho@northwind-analytics.com>
+To: exec-team@northwind-analytics.com
+Date: Thu, 20 Nov 2025 18:02
+Subject: Board deck – Oct metrics draft
+
+Hi all,
+
+Draft numbers for the board deck (October):
+
+- MAU: 41,200 (MAU = users who logged in at least once in the calendar month, excl. internal)
+- NRR: 108.9%
+- New workspaces: 412
+- Activation rate: 37%
+
+Footnote wording for MAU is copied from last quarter's deck. Shout if anything looks off.
+
+Thanks,
+Kevin
+--
+Kevin Cho | Finance & Strategy | Northwind Analytics

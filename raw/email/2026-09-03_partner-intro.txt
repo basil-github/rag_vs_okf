@@ -1,0 +1,12 @@
+From: Chris Nolan <chris@fivetrain-partners.example>
+To: partnerships@northwind-analytics.com
+Date: Thu, 3 Sep 2026 09:00
+Subject: Intro – co-marketing webinar?
+
+Hi Northwind team,
+
+We loved your talk at DataConf. Would you be open to a joint webinar in Q4 on "self-serve analytics for
+ops teams"? Happy to share our audience numbers.
+
+Best,
+Chris

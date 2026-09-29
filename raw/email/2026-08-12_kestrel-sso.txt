@@ -1,0 +1,14 @@
+From: Omar Siddiqui <osiddiqui@kestrelhealth.example>
+To: Jules Martin <jules.martin@northwind-analytics.com>
+Date: Wed, 12 Aug 2026 10:03
+Subject: SSO requirement ahead of renewal
+
+Jules,
+
+Our new security policy (effective Oct) requires SAML SSO for every SaaS vendor. We're told SSO is Enterprise-only,
+and the Enterprise quote is almost 2.5x what we pay for Growth. That doesn't make sense for a login feature.
+
+If there's no SSO option on our current plan before our Nov 1 renewal, we'll have to switch vendors.
+
+Omar Siddiqui
+IT Director, Kestrel Health

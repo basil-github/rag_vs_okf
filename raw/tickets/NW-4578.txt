@@ -1,0 +1,9 @@
+Ticket: NW-4578
+Created: 2026-06-18
+Customer: Tidewater Energy (Enterprise)
+Priority: High
+Subject: Dashboards timing out
+
+Customer says: "Exec dashboard timed out during our board meeting. Very embarrassing."
+Agent notes: 52 widgets, several with 18-month date ranges. Query engine CPU spike at the time. SRE ticket INC-771.
+Status: Solved

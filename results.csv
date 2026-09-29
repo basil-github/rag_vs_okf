@@ -1,0 +1,109 @@
+﻿question,type,rag_answer,okf_answer,rag_sources,okf_sources,rag_time_s,okf_time_s,rag_correct,okf_correct,reference_notes,model
+How is Monthly Active Users (MAU) defined at Northwind Analytics?,exact,"I relied on the file name ""okf/metrics/monthly-active-users.md"".
+
+Monthly Active Users (MAU) is defined as the number of distinct users who performed at least one qualifying action in the trailing 28 days. Qualifying actions include:
+
+* Running a query
+* Viewing a dashboard for at least 10 seconds
+* Creating or editing a report
+
+Exclusions include internal Northwind accounts, test and sandbox workspaces, and API-only service accounts.","Monthly Active Users (MAU) is defined as the number of distinct users who performed at least one qualifying action in the trailing 28 days. Qualifying actions include:
+
+• running a query
+• viewing a dashboard for at least 10 seconds
+• creating or editing a report
+
+I relied on the file: okf/metrics/monthly-active-users.md",okf/metrics/monthly-active-users.md#chunk0; okf/index.md#chunk0; okf/metrics/activation-rate.md#chunk0; raw/email/2026-03-02_mau-change-announcement.txt#chunk0,okf/metrics/monthly-active-users.md,54.04,57.78,,,"Distinct users with >=1 qualifying action (run a query, view a dashboard >=10s, create/edit a report) in the trailing 28 days, UTC; excludes internal, test and API-only accounts. Effective 2026-03-01. The OLD 'logged in during the calendar month' definition is wrong.",ollama / llama3.1:8b
+"In the Reports API v2, which response field shows when a report was last refreshed, and what format is it in?",exact,"I relied on Chunk 4 (from okf/api/reports-api-v2.md).
+
+The response field that shows when a report was last refreshed is `last_refreshed_at`. It is in ISO 8601 format, which is UTC. 
+
+File name: reports-api-v2.md","According to the Schema section of the file, the response field that shows when a report was last refreshed is `last_refreshed_at`. It is an ISO 8601 timestamp in UTC (e.g. `2026-09-01T08:30:00Z`).
+
+File relied on: okf/api/reports-api-v2.md",okf/api/reports-api-v2.md#chunk0; raw/email/2026-05-28_api-v1-deprecation-draft.txt#chunk0; raw/meetings/2026-05-12_api-v2-design-review.md#chunk0; okf/api/reports-api-v2.md#chunk2,okf/api/reports-api-v2.md,217.87,51.43,,,last_refreshed_at: ISO 8601 timestamp in UTC (e.g. 2026-09-01T08:30:00Z).,ollama / llama3.1:8b
+What is the refund window for annual plans?,exact,"According to Chunk 1 from raw/meetings/2026-03-25_finance-review.md, the refund window for annual plans is **60 days** after purchase or renewal.
+
+I relied on this file: raw/meetings/2026-03-25_finance-review.md.","According to the Refund Policy document (okf/policies/refund-policy.md), the refund window for annual plans is:
+
+* Within 30 days of the initial purchase
+* or within 30 days of the annual renewal date.
+
+Relied on: okf/policies/refund-policy.md",raw/meetings/2026-03-25_finance-review.md#chunk0; okf/index.md#chunk1; raw/email/2026-09-10_renewal-refund-request.txt#chunk0; raw/slack/2026-04-02_finance-ops.txt#chunk0,okf/policies/refund-policy.md; okf/pricing/pricing-tiers.md,18.48,29.17,,,30 days from the initial purchase or the annual renewal date (full refund). 14 and 60 days are wrong (old meeting-note claims).,ollama / llama3.1:8b
+"How much does the Growth tier cost per user, and how many API calls per day does it include?",exact,"I relied on the file name ""pricing-tiers.md"".
+
+* The Growth tier costs $79 / user / month (billed annually) or $95 / user / month (billed monthly).
+* It includes 10,000 API calls per day.","Based on the provided context, I relied on the file ""okf/pricing/pricing-tiers.md"".
+
+* The Growth tier costs $79 per user per month (billed annually).
+* It includes 10,000 API calls per day.",okf/pricing/pricing-tiers.md#chunk0; okf/api/rate-limits.md#chunk0; okf/index.md#chunk0; okf/metrics/monthly-active-users.md#chunk1,okf/api/rate-limits.md; okf/pricing/pricing-tiers.md,22.27,39.99,,,"$79/user/month billed annually ($95 billed monthly); 10,000 API calls per day.",ollama / llama3.1:8b
+"Which team owns the Reports API, and who leads that team?",exact,"I relied on the file ""team-ownership.md"" (Chunk 2).
+
+The team that owns the Reports API (v1 and v2) and rate limits is Platform API. The team lead for this area is Marcus Okafor. 
+
+File name: team-ownership.md","I relied on the file ""okf/teams/team-ownership.md"".
+
+The team that owns the Reports API (v1 and v2) is Platform API. The team lead for this team is Marcus Okafor.
+
+* Team: Platform API
+* Team Lead: Marcus Okafor",okf/api/reports-api-v2.md#chunk0; okf/teams/team-ownership.md#chunk0; okf/log.md#chunk0; okf/index.md#chunk0,okf/api/reports-api-v2.md; okf/teams/team-ownership.md,27.11,65.49,,,"Platform API team, led by Marcus Okafor.",ollama / llama3.1:8b
+What are customers complaining about most?,open-ended,"Based on the provided context, I relied on the following files:
+
+* raw/meetings/2026-06-30_q2-customer-review.md
+* raw/meetings/2026-09-15_support-trends.md
+
+According to Chunk 1 (Q2 customer review), the top complaint themes by ticket volume in Q2 are:
+• Dashboard performance: slow loads / timeouts on large dashboards (Brightline, Tidewater)
+• Scheduled reports at the wrong time (timezone/DST bug ENG-2291)
+
+In Chunk 3 (Support trends), the top ticket categories for Q3 to date are:
+• Performance / slow dashboards: 31%
+• Exports (CSV truncation at 10k rows, timezone, encoding): 18%
+
+It appears that customers are still complaining about dashboard performance issues in Q3.","The OKF knowledge bundle has no file that covers this question, so I can't answer it without guessing.",raw/meetings/2026-06-30_q2-customer-review.md#chunk0; raw/meetings/2026-08-07_product-roadmap.md#chunk0; raw/meetings/2026-09-15_support-trends.md#chunk0; okf/teams/team-ownership.md#chunk1,(none),31.19,15.68,,,"Slow dashboards (large/many widgets), CSV export truncated at 10,000 rows, SSO only on Enterprise (price), scheduled-report timezone bugs, mobile app crashes.",ollama / llama3.1:8b
+What features did customers request in August 2026?,open-ended,"Based on Chunk 3 (raw/email/2026-08-21_feature-request-roundup.txt), I found that customers requested the following features in August 2026:
+
+* Dark mode for dashboards
+* Scheduled PDF delivery to Slack channels
+* Excel (.xlsx) export
+* Row-level permissions on the Growth plan
+* Custom fiscal calendar
+
+I relied on this file: raw/email/2026-08-21_feature-request-roundup.txt","The OKF knowledge bundle has no file that covers this question, so I can't answer it without guessing.",raw/meetings/2026-08-07_product-roadmap.md#chunk0; raw/meetings/2026-06-30_q2-customer-review.md#chunk0; raw/email/2026-08-21_feature-request-roundup.txt#chunk0; raw/meetings/2026-09-15_support-trends.md#chunk0,(none),29.44,11.35,,,"Dark mode for dashboards, scheduled PDF delivery to Slack, Excel (.xlsx) export, row-level permissions on Growth, custom fiscal calendar, Snowflake write-back.",ollama / llama3.1:8b
+"Which customers are at risk of churning, and why?",open-ended,"Based on the provided context, I relied on the following files:
+
+* raw/meetings/2026-06-30_q2-customer-review.md (Chunk 1)
+* raw/slack/2026-06-10_support-escalations.txt (Chunk 2)
+* raw/tickets/NW-4790.txt (Chunk 3)
+
+The customers at risk of churning are:
+
+• Brightline Logistics: due to slow dashboard performance, specifically the ops dashboard taking 40+ seconds to load every morning. They have already mentioned evaluating Metabase as an alternative.
+• Tidewater: also experiencing slow dashboard performance issues.
+
+These customers' churn risks were flagged in CRM and Slack discussions.","I don't have enough information to answer that.
+
+However, I can tell you what is included in the Net Revenue Retention (NRR) calculation:
+
+* Contraction
+* Churn from a specific cohort (customers who existed 12 months ago)
+
+This suggests that customers who are at risk of churning may be those who have left or reduced their usage over the past year.",raw/meetings/2026-06-30_q2-customer-review.md#chunk0; raw/slack/2026-06-10_support-escalations.txt#chunk0; raw/tickets/NW-4790.txt#chunk0; raw/meetings/2026-08-07_product-roadmap.md#chunk0,okf/metrics/net-revenue-retention.md; okf/metrics/activation-rate.md,29.46,24.47,,,"Brightline Logistics (slow dashboards), Kestrel Health (SSO requires Enterprise), Vantage Foods (CSV export truncation).",ollama / llama3.1:8b
+What problems do new customers run into during onboarding?,open-ended,"Based on the provided context, here are the problems new customers run into during onboarding:
+
+• Connecting the first data source is a major blocker (Chunk 1)
+• Invite emails land in spam for Outlook/M365 customers
+• After connecting data, they see an empty workspace with no templates or sample dashboards
+• Two customers didn't realize Starter has no API access until after they bought
+
+I relied on the file name ""raw/email/2026-08-29_onboarding-feedback.txt"" (Chunk 1) for this answer.","The OKF knowledge bundle has no file that covers this question, so I can't answer it without guessing.",raw/email/2026-08-29_onboarding-feedback.txt#chunk0; raw/meetings/2026-06-30_q2-customer-review.md#chunk0; raw/tickets/NW-4758.txt#chunk0; raw/meetings/2026-09-15_support-trends.md#chunk0,(none),26.67,7.66,,,"Confusing data-source connection step (Postgres/SSL, IP allowlist), invite emails landing in spam, empty dashboards with no templates/sample data.",ollama / llama3.1:8b
+What issues have customers reported with CSV exports?,open-ended,"Based on the provided context, I relied on the following files:
+
+* raw/tickets/NW-4644.txt
+* raw/email/2026-07-08_vantage-foods-csv.txt
+* raw/slack/2026-08-19_support-escalations.txt
+
+Customers have reported the following issues with CSV exports:
+
+• Truncated export at 10,000 rows (no warning)
+• Dates exported in UTC instead of workspace timezone
+• Accented characters not displayed correctly in Excel (e.g. ""Café Ribeiro"" becomes ""CafÃ­ Ribeiro"")","The OKF knowledge bundle has no file that covers this question, so I can't answer it without guessing.",raw/tickets/NW-4644.txt#chunk0; raw/email/2026-07-08_vantage-foods-csv.txt#chunk0; raw/slack/2026-08-19_support-escalations.txt#chunk0; raw/tickets/NW-4730.txt#chunk0,(none),62.25,29.03,,,"Exports silently truncated at 10,000 rows; date columns in wrong timezone/format; UTF-8 characters garbled in Excel (no BOM).",ollama / llama3.1:8b

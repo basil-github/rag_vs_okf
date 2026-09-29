@@ -1,0 +1,9 @@
+Ticket: NW-4699
+Created: 2026-07-28
+Customer: Oakridge Clinics (Growth)
+Priority: Normal
+Subject: Android app crash on login
+
+Customer says: "App crashes right after I enter my password on Samsung phones."
+Agent notes: Android 16 only. Related to biometric prompt. ENG-2350.
+Status: Open

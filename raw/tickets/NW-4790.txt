@@ -1,0 +1,9 @@
+Ticket: NW-4790
+Created: 2026-09-01
+Customer: Brightline Logistics (Growth)
+Priority: Urgent
+Subject: SLOW AGAIN
+
+Customer says: "Same issue as April and June. Dispatch dashboard 50+ seconds. We are seriously considering leaving."
+Agent notes: Churn risk flagged in CRM. SRE applied throttle to noisy neighbor workspace, load back to 6s.
+Status: Solved (workaround)

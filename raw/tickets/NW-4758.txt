@@ -1,0 +1,10 @@
+Ticket: NW-4758
+Created: 2026-08-18
+Customer: Harbor & Pine (Starter)
+Priority: Normal
+Subject: Workspace empty after connecting data
+
+Customer says: "OK the database is connected. Now what? There's nothing here."
+Agent notes: No templates for Starter. Walked them through building first dashboard on a call (45 min).
+Suggest: sample dashboards / templates in onboarding.
+Status: Solved

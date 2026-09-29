@@ -1,0 +1,8 @@
+#product-feedback export — 2026-08-05
+
+[09:30] ben.adeyemi: August requests so far 👇
+[09:31] ben.adeyemi: 1) dark mode for dashboards — Pinecrest Media + 2 others. they put dashboards on office TVs, white bg is blinding
+[09:32] ben.adeyemi: 2) scheduled PDF delivery straight into Slack channels (not just email) — Brightline, Tidewater
+[09:33] ben.adeyemi: 3) Excel .xlsx export, not just CSV — Vantage Foods finance team
+[09:35] hana.suzuki (PM): dark mode keeps coming up. adding to roadmap review on the 7th
+[09:36] jules.martin: +1 on slack delivery, we lose deals over it

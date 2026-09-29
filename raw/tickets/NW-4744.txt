@@ -1,0 +1,9 @@
+Ticket: NW-4744
+Created: 2026-08-14
+Customer: Grainfield Co-op (Growth)
+Priority: Low
+Subject: Fiscal calendar support
+
+Customer says: "We run a 4-4-5 retail calendar. Can dashboards group by fiscal period instead of calendar month?"
+Agent notes: Not supported today. FR-325 (custom fiscal calendar).
+Status: Closed – feature request
